@@ -5,21 +5,94 @@
 	<meta name="author" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale1.0, minimum-scale=1.0" />
      
     <link rel="stylesheet" href="public/css/bootstrap.min.css" />
-	<title>Untitled 2</title>
+	<link rel="stylesheet" href="public/css/estilo.css" />
+    <title>Bootstrap</title>
 </head>
 
-<body> 
-    <div class="conteiner">
-     <h1>Esto es un header</h1>
-     <p>
-       Esto es un parrafo de prueba para probar todas las cosas que se
-       pueden hacer con bootstrap a la mano de nuestro web master falcon.
-     </p>
-     <button class="btn btn-primary">Botón</button>
-    
+<body>
+    <header>
+            <div class="container">
+                <h1>Header</h1>
+            </div>
+    </header> 
+    <div class="container">
+            <section class="main row">
+                    
+                        <article class="p1 col-xs-12 col-sm-8 col-md-9">
+                             <p>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                             </p>
+                              <p>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                             </p>
+                             <p>and Timing-Allow headers and allowed to be cached for 1 year.</p>
+                        </article>
+                        <aside class="p2 col-xs-12 col-sm-4 col-md-3">
+                                <p>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                                </p>
+                        </aside>
+                    
+            </section>
+            <div class="row">
+              <div class="p3 col-xs-12 col-ms-6 col-md-3">
+              <!--col-xs col-ms col-md col-lg que son las medidas que se le van a dar la pagina para que sea responsive a cada tamaï¿½o-->     
+              <!--xs=es para celulares, ms=es para tablet, md es para tablets horizontales, y lg= es para pantallas mas grandes -->
+                    <p>
+                        <h3>Columna1</h3>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                   </p>
+                  
+                   
+                   
+              </div>
+               <div class="col-xs-12 col-ms-6 col-md-3">
+                     <p>
+                        <h3>Columna2</h3>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                     </p>
+                     
+                     
+              </div>
+              
+              <div class="clearfix visible-sm-block"></div><!--sirve para resolver errores del navegador-->
+              
+               <div class="p3 col-xs-12 col-ms-6 col-md-3"> <!--col-md-offset es para mover columnas a la derecha-->
+                     <p>
+                        <h3>Columna3</h3>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                     </p>
+              </div>
+              <div class="col-xs-12 col-ms-6 col-md-3">
+                     <p>
+                        <h3>Columna4</h3>
+                                 We recommend that you load libraries from the CDN via HTTPS, even if your own website only uses HTTP.
+                                 Nowadays, performance is fast, and caching works just the same. The CDN's files are served with CORS 
+                                 and Timing-Allow headers and allowed to be cached for 1 year.
+                     </p>
+              </div>
+            
+            </div>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <footer>
+        <div class="container">
+            <h3>Mario Muï¿½oz</h3>
+        </div>
+    </footer>
+     
+    <script src="public/jquery/Jquery.js"></script>
     <script src="public/js/bootstrap.min.js"></script>
 </body>
 </html>
